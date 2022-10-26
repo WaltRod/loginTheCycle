@@ -1,0 +1,87 @@
+@media screen and (max-width: 1024px){
+    body{
+        margin: 0 auto;
+        margin-left: 20px;
+        overflow-x: hidden;
+        background-image: url(./imagens/cycle.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .formLogin{
+        width: 500px;
+        margin: 100px auto 0;
+    }
+
+    .formLogin fieldset{
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .login{
+        font-family: OCR A Std;
+        position: relative;
+        top: 80px;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        padding: 80px;
+        box-sizing: border-box; 
+        font-size: 40px; 
+        letter-spacing: 1px;
+        text-shadow: 0.1em 0.1em 0.1em rgb(218, 214, 214); 
+        text-transform: none;            
+     
+    }
+    
+    .formLogin label{
+        text-transform: uppercase;
+        margin-top: 70px;
+        display: block;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+        font-family: OCR A Std;
+        text-shadow: 0.1em 0.1em 0.1em rgb(197, 197, 197);
+        font-size: 30px; 
+        
+    }
+    
+    .btn{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 40px;
+        font-family: OCR A Std;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        border-color: rgba(54, 52, 52, 0.459);
+        text-shadow: 0.1em 0.1em 0.1em rgb(197, 197, 197);
+        font-weight: bold;
+        margin-bottom: 20px; 
+    }
+    
+    .ul-icons{
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        letter-spacing: 50px;
+        margin-left: 75px;
+        font-size: 70px;
+    }
+    
+    
+    #pass{
+        width: 400px;
+        height: 40px;
+        border-color: rgba(0, 0, 0, 0.356);
+    }
+    #user{
+        width: 400px;
+        height: 40px;
+        border-color: rgba(0, 0, 0, 0.315);
+    }
+    
+
+}

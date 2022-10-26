@@ -1,0 +1,84 @@
+body{
+    background-image: url(./imagens/cycle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+.formLogin{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    width: 350px;
+    margin: 10px auto 0;
+}
+
+.formLogin fieldset{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.login{
+    font-family: OCR A Std;
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 40px;
+    box-sizing: border-box; 
+    font-size: 20px; 
+    letter-spacing: 1px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(218, 214, 214); 
+    text-transform: none;            
+ 
+}
+
+.formLogin label{
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: OCR A Std;
+    text-shadow: 0.1em 0.1em 0.1em rgb(197, 197, 197);
+    font-size: 13px; 
+    
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: OCR A Std;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-color: rgba(54, 52, 52, 0.459);
+    text-shadow: 0.1em 0.1em 0.1em rgb(197, 197, 197);
+    font-weight: bold;  
+}
+
+.ul-icons{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    letter-spacing: 50px;
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+
+#pass{
+    width: 300px;
+    height: 40px;
+    border-color: rgba(0, 0, 0, 0.356);
+}
+#user{
+    width: 300px;
+    height: 40px;
+    border-color: rgba(0, 0, 0, 0.315);
+}
